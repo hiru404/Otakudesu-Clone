@@ -1,6 +1,6 @@
 # Otakudesu Blogger Theme
 
-![Otakudesu Theme](https://blogger.googleusercontent.com/img/b/R29vZ2xl/)
+![Otakudesu Theme]([https://blogger.googleusercontent.com/img/b/R29vZ2xl/](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcpG7CBOsA_utThuiPjDL39FjFnqz5sHcNAwQerlOSE7a5uSoOPQrrbE50MMEIUrNAO5vAAkOExCEHRFaPDAayQq1xDDrcOiEoqtkvxzQEkXoT58cfZPyIaLGJE9ihjqDHFn8YGAcsqucdjkP_go6yqH-ApfivOrz-ESljRIXWNl1ykDQROdS6i4-jYbmx/s1600/1000269471.png))
 
 Tema Blogger anime modern dengan sistem AGC (Auto Generate Content) yang dirancang khusus untuk website anime, streaming, dan database anime.
 
@@ -54,7 +54,10 @@ Sebelum digunakan, lakukan aktivasi:
 4. Gunakan tema pada domain yang sudah aktif.
 
 Contoh:
-
+<a href="/p/login.html" 
+style="background:#0284c7;color:#fff;padding:8px 16px;border-radius:6px;text-decoration:none;font-weight:bold;">
+🔐 Login License
+</a>
 
 
 ---
@@ -79,3 +82,63 @@ Halaman utama menampilkan:
 
 
 
+
+---
+
+# 🛠️ Pengaturan AGC
+
+Tema mendukung sistem AGC.
+
+Fungsi:
+
+- Generate halaman anime otomatis.
+- Menampilkan data anime.
+- Update konten tanpa membuat posting manual.
+
+Pastikan API/database AGC sudah dikonfigurasi.
+
+---
+
+# 📁 Repository Structure
+
+
+
+
+---
+
+# 🔄 Update
+
+## Version 1.1
+
+- Perbaikan tampilan.
+- Optimasi script.
+- Peningkatan kompatibilitas Blogger.
+- Update sistem license.
+- Perbaikan halaman anime.
+
+---
+
+# 📌 Ketentuan
+
+- Tidak boleh menjual ulang tema.
+- Tidak boleh menghapus sistem license.
+- Gunakan pada domain yang sudah terdaftar.
+- Backup sebelum melakukan perubahan.
+
+---
+
+# ❤️ Support
+
+Website:
+
+
+
+---
+
+## Credits
+
+Created by:
+
+**Hiru404**
+
+© 2026 Hiru404. All Rights Reserved.
