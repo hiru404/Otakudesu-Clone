@@ -1,7 +1,10 @@
 # Otakudesu Blogger Theme
 
-![Otakudesu Theme]([https://blogger.googleusercontent.com/img/b/R29vZ2xl/](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcpG7CBOsA_utThuiPjDL39FjFnqz5sHcNAwQerlOSE7a5uSoOPQrrbE50MMEIUrNAO5vAAkOExCEHRFaPDAayQq1xDDrcOiEoqtkvxzQEkXoT58cfZPyIaLGJE9ihjqDHFn8YGAcsqucdjkP_go6yqH-ApfivOrz-ESljRIXWNl1ykDQROdS6i4-jYbmx/s1600/1000269471.png))
-
+![Otakudesu Theme]<img 
+src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcpG7CBOsA_utThuiPjDL39FjFnqz5sHcNAwQerlOSE7a5uSoOPQrrbE50MMEIUrNAO5vAAkOExCEHRFaPDAayQq1xDDrcOiEoqtkvxzQEkXoT58cfZPyIaLGJE9ihjqDHFn8YGAcsqucdjkP_go6yqH-ApfivOrz-ESljRIXWNl1ykDQROdS6i4-jYbmx/s1600/1000269471.png"
+alt="Otakudesu Blogger Theme"
+title="Otakudesu Blogger Theme"
+loading="lazy">
 Tema Blogger anime modern dengan sistem AGC (Auto Generate Content) yang dirancang khusus untuk website anime, streaming, dan database anime.
 
 Tema ini dibuat untuk mempermudah pembuatan website anime tanpa harus membuat ribuan postingan secara manual.
