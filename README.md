@@ -29,8 +29,7 @@ Tema ini dibuat untuk mempermudah pembuatan website anime tanpa harus membuat ri
 
 ## 1. Download Tema
 
-Download file XML tema melalui halaman resmi:
-
+Download file XML tema melalui [halaman resmi](https://hiru404.blogspot.com).
 
 ---
 
@@ -51,15 +50,24 @@ Tema menggunakan sistem License Domain Hiru404.
 
 Sebelum digunakan, lakukan aktivasi:
 
-1. Login ke License Dashboard.
-2. Tambahkan domain website.
-3. Tunggu proses verifikasi.
-4. Gunakan tema pada domain yang sudah aktif.
+### Panduan Aktivasi Lisensi
+
+1. **Daftar / Masuk Akun**
+   * Buat akun baru atau login jika sudah terdaftar.
+   * Untuk pendaftar baru, verifikasi email Anda melalui tautan yang dikirim (periksa folder *Spam* jika email belum masuk).
+
+2. **Daftarkan Domain**
+   * Buka **License Dashboard**.
+   * Masukkan domain website yang akan dipasangi tema.
+
+3. **Verifikasi & Aktivasi**
+   * Tunggu hingga proses verifikasi domain selesai.
+   * Setelah status aktif, tema siap dipasang dan digunakan pada website Anda.
 
 Contoh:
 <a href="/p/login.html" 
 style="background:#0284c7;color:#fff;padding:8px 16px;border-radius:6px;text-decoration:none;font-weight:bold;">
-🔐 Login License
+🔐 Login
 </a>
 
 
@@ -132,7 +140,7 @@ Pastikan API/database AGC sudah dikonfigurasi.
 
 # ❤️ Support
 
-Website:
+Website: [hiru404.blogspot.com](https://hiru404.blogspot.com)
 
 
 
