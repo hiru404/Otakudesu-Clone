@@ -1,0 +1,122 @@
+<!-- Setting Post -->
+<div class="infor_bawah" style="display: none;" data-label="Loading" data-fields="judul,credit,encoder,genre,durasi,tipe"></div>
+
+<div class="prev">
+  <div class="fleft">
+    <select name="episode" id="selectcog" onchange="window.open(this.options[this.selectedIndex].value,'_self')">
+      <option value="0">Pilih Episode Lainnya</option>
+    </select>
+  </div>
+  <div class="flir">
+    <a id="btn-prev-eps" href="javascript:void(0);" title="Episode Sebelumnya">Previous Eps.</a>
+    <a id="btn-see-all" href="javascript:void(0);" rel="follow">See All Episodes</a>
+  </div>
+</div>
+
+<div id="serieslist"></div>
+
+<!-- Streaming Post -->
+<div class="_vidio">
+  <div class="frame_video">
+    <div class="_iframe">
+      <iframe src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="true" width="100%" height="100%"></iframe>
+    </div>
+    <div class="switch"><span>Cinema Off</span></div>
+  </div>
+  <div class="mirrorstream">
+    <ul class="m360p dropdown-mirror">
+      <div class="dropdown-toggle" onclick="toggleMirrorDropdown(this)">
+        <i class="fa-regular fa-desktop"></i> Mirror 360p 
+      </div>
+      <div class="dropdown-menu-content" style="display: none;">
+        <!-- Diisi otomatis via JS dari API dengan struktur li -->
+      </div>
+    </ul>
+    <ul class="m480p dropdown-mirror">
+      <div class="dropdown-toggle" onclick="toggleMirrorDropdown(this)">
+        <i class="fa-regular fa-desktop"></i> Mirror 480p 
+      </div>
+      <div class="dropdown-menu-content" style="display: none;">
+        <!-- Diisi otomatis via JS dari API dengan struktur li -->
+      </div>
+    </ul>
+    <ul class="m720p dropdown-mirror">
+      <div class="dropdown-toggle" onclick="toggleMirrorDropdown(this)">
+        <i class="fa-regular fa-desktop"></i> Mirror 720p 
+      </div>
+      <div class="dropdown-menu-content" style="display: none;">
+        <!-- Diisi otomatis via JS dari API dengan struktur li -->
+      </div>
+    </ul>
+  </div>
+</div>
+<div class="tambahan">
+  <i class="fa-solid fa-video"></i> Jika Mirror Streaming dan Link Download Error, silahkan gunakan Mirror dan Link alternative lainnya.
+</div>
+
+<!-- Download Post -->
+<div class="download2">
+  <div class="batchlink">
+    <h4 id="download-title">Loading Download Link...</h4>
+    <ul id="download-list-ul">
+      <li><span>Memuat link download...</span></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Box Detail Anime & List Episode (.cukder) -->
+<div class="cukder">
+  <img width="225" height="318" src="" alt="Poster" loading="lazy">
+  <div class="infozin">
+    <div class="infozingle">
+      <p><span><b>Judul</b>: Memuat...</span></p>
+      <p><span><b>Credit</b>: Memuat...</span></p>
+      <p><span><b>Encoder</b>: Memuat...</span></p>
+      <p><span><b>Genre</b>: Memuat...</span></p>
+      <p><span><b>Durasi</b>: Memuat...</span></p>
+      <p><span><b>Tipe</b>: Memuat...</span></p>
+    </div>
+  </div>
+  <div class="judul-recommend-anime-series">
+    <ul class="keyingpost" id="cukder-episode-list">
+      <li><a href="javascript:void(0);" rel="nofollow">Memuat episode...</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Keyword Post -->
+<div class="keyword">
+  <div class="keying">Memuat keyword...</div>
+</div>
+
+<style>
+/* CSS Tambahan untuk Cinema Mode & Perbaikan Tinggi Dropdown */
+body.cinema-active {
+  overflow: hidden;
+}
+
+body.cinema-active::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9991;
+  pointer-events: none;
+}
+
+._vidio .frame_video.cinema-mode {
+  position: relative;
+  z-index: 9992;
+}
+
+.dropdown-menu-content li {
+  height: auto !important;
+}
+</style>
+
+
+
+
