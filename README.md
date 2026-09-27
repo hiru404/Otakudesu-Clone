@@ -44,22 +44,31 @@ Download file XML tema melalui [halaman resmi](https://hiru404.blogspot.com).
 ## 3. Konfigurasi Post & Page
 
 Repositori ini menyediakan file template untuk bagian Post dan Page yang perlu Anda masukkan ke dalam Blogger agar tata letak situs berfungsi dengan optimal.
-
 ### A. Post (Entri)
-Masukkan file berikut ke menu **Postingan** baru di Blogger sesuai kebutuhan:
-* **Anime.html**: Digunakan untuk templat postingan detail/episode anime[span_2](start_span)[span_2](end_span).
-* **Batch.html**: Digunakan untuk templat postingan unduhan batch[span_3](start_span)[span_3](end_span).
-* **Stream.xml**: Digunakan untuk templat atau integrasi pemutar video (streaming)[span_4](start_span)[span_4](end_span).
+Masukkan file berikut ke menu **Postingan** baru di Blogger sesuai kebutuhan, dan jangan lupa untuk menambahkan label yang sesuai:
+
+* **Anime.html**: 
+  * **Fungsi**: Digunakan untuk templat postingan detail/episode list.
+  * **Label**: `Series`.
+
+* **Batch.html**: 
+  * **Fungsi**: Digunakan untuk templat postingan unduhan batch.
+  * **Label**: `Batch`.
+
+* **Stream.xml**: 
+  * **Fungsi**: Digunakan untuk templat atau integrasi pemutar video (streaming).
+  * **Label**: `Stream`.
 
 ### B. Halaman (Pages)
 Buat halaman baru di menu **Halaman** (Pages) di dashboard Blogger, lalu masukkan kode HTML dari file berikut:
-* **Anime-list.html**: Untuk halaman daftar seluruh anime[span_5](start_span)[span_5](end_span).
-* **Completed-anime.html**: Untuk halaman daftar anime yang sudah tamat (completed)[span_6](start_span)[span_6](end_span).
-* **Genre-list.html**: Untuk halaman daftar kategori/genre[span_7](start_span)[span_7](end_span).
-* **List-grid.html**: Untuk halaman daftar dengan tampilan grid[span_8](start_span)[span_8](end_span).
-* **Schedule.html**: Untuk halaman jadwal rilis anime[span_9](start_span)[span_9](end_span).
-* **Search-genre.html**: Untuk halaman pencarian berdasarkan genre[span_10](start_span)[span_10](end_span).
-* **Search.html**: Untuk halaman hasil pencarian situs[span_11](start_span)[span_11](end_span).
+* **Anime-list.html**: Untuk halaman daftar seluruh anime
+* **Completed-anime.html**: Untuk halaman daftar anime yang sudah tamat (completed)
+* **Genre-list.html**: Untuk halaman daftar kategori/genre.
+* **List-grid.html**: Untuk halaman daftar dengan tampilan grid.
+* 
+* **Schedule.html**: Untuk halaman jadwal rilis anime
+* **Search-genre.html**: Untuk halaman pencarian berdasarkan genre.
+* **Search.html**: Untuk halaman hasil pencarian situs.
 
 
 # 🔐 Aktivasi License
